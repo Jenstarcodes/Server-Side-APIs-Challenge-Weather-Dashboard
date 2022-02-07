@@ -8,7 +8,7 @@ The Server-Side API Challenge showed how a Third-Party API can enable a front-en
 
 ### Technologies
 
-HTML, CSS, JavaScript
+HTML, CSS, JavaScript, JQuery
 
 ### Screenshot 
 
