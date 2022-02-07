@@ -10,9 +10,9 @@ The Server-Side API Challenge showed how a Third-Party API can enable a front-en
 
 HTML, CSS, JavaScript
 
-### 
+### Screenshot 
 
-![Screenshot](![image](https://user-images.githubusercontent.com/95147890/152713674-67750b3d-cb10-4231-ab23-17a03ce55c52.png)
+![image](https://user-images.githubusercontent.com/95147890/152713674-67750b3d-cb10-4231-ab23-17a03ce55c52.png)
 
 ## User Story
 
