@@ -10,6 +10,11 @@ The Server-Side API Challenge showed how a Third-Party API can enable a front-en
 
 HTML, CSS, JavaScript
 
+### Screenshot
+
+![Mock Up](![image](https://user-images.githubusercontent.com/95147890/152713674-67750b3d-cb10-4231-ab23-17a03ce55c52.png)
+
+
 ## User Story
 
 AS A traveler I WANT to see the weather outside for multiple cities SO THAT I can plan a trip accordingly.
