@@ -8,11 +8,7 @@ The Server-Side API Challenge showed how a Third-Party API can enable a front-en
 
 ### Technologies
 
-HTML, CSS, JavaScript, JQuery
-
-### Screenshot 
-
-![image](https://user-images.githubusercontent.com/95147890/152713674-67750b3d-cb10-4231-ab23-17a03ce55c52.png)
+HTML, CSS, JavaScript
 
 ## User Story
 
@@ -35,3 +31,5 @@ AS A traveler I WANT to see the weather outside for multiple cities SO THAT I ca
     3. Wind Speed
     4. Humidity
 - When user clicks on a city in the search history then the user is again presented with both the current and future weather conditions for that city.      
+
+

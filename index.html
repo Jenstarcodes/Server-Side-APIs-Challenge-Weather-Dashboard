@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+        <h1>Weather Dashboard</h1>      
+
+            <div class="city-container">
+                <div class="city" id="city">Atlanta <span id="date">(02/03/2022)</span>
+                <img src="http://openweathermap.org.img/wn/10d@2x.png" alt="icon" class="icons">
+                </div> 
+                     
+                <div class="other-items" id="current-weather-items">
+                    <div class="weather-item">
+                        <div id ="divTemp"></div>
+                    </div>
+                    <div class="weather-item">
+                        <div id="divWind"> Wind: 6.67MPH</div>                      
+                    </div>
+                    <div class="weather-item">
+                        <div id="divHum">Humidity: 46 %</div>
+                    </div>
+                    <div class="weather-item">
+                        <div id="divUV">UV Index: <button id="uv-index" class="btn2">0.47</button></div>
+                    </div>
+                </div>
+            </div>
+        
+        <aside>           
+            <form >
+                <label for="inputContainer">Search for a City:</label>        
+                <input type="search" id="cityinput" name="input-container">                
+                <input type="submit" value="Search" id="clckBTN"> 
+                                
+                <p id="inputContainer"><input type="text" class="cityInput2"></p>
+                <br>
+                <p id="inputContainer"><input type="text" class="cityInput2"></p>
+                <br>
+                <p id="inputContainer"><input type="text" class="cityInput2"></p>
+                <br>
+                <p id="inputContainer"><input type="text" class="cityInput2"></p>
+                <br>
+                <p id="inputContainer"><input type="text" class="cityInput2"></p>
+                <br>
+                <p id="inputContainer"><input type="text" class="cityInput2"></p>
+                <br>
+                <p id="inputContainer"><input type="text" class="cityInput2"></p>
+                <br>
+                <p id="inputContainer"><input type="text" class="cityInput2"></p>
+            </form>    
+        </aside>
+        
+        <h3 id="para1">5-Day Forecast:</h3>  
+            
+        <section>
+        <div class="weather-forecast" id="weather-forecast">
+            <div class="weather-forecast-item">                         
+                <div class="date" id="dateSel1">02/03/2022</div>
+                    <img src="http://openweathermap.org.img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                    <div id="temp1">Temp: 73.72&#176; F</div>
+                    <div id="wind1">Wind: 9.53 MPH</div>
+                    <div id="humidity1">Humidity: 66 %</div>
+            </div>
+                                   
+            <div class="weather-forecast-item">
+                <div class="date" id="dateSel2">02/04/2022</div>
+                <img src="http://openweathermap.org.img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                <div id="temp2">Temp: 49.5&#176; F</div>
+                <div id="wind2">Wind: 16.24 MPH</div>
+                <div id="humidity2">Humidity: 30 %</div>
+            </div>
+            <div class="weather-forecast-item">
+                <div class="date" id="dateSel3">02/05/2022</div>
+                <img src="http://openweathermap.org.img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                <div id="temp3">Temp: 53.38&#176; F</div>
+                <div id="wind3">Wind: 6.15 MPH</div>
+                <div id="humidity3">Humidity: 17 %</div>
+            </div>
+            <div class="weather-forecast-item">git 
+                <div class="date" id="dateSel4">02/06/2022</div>
+                <img src="http://openweathermap.org.img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                <div id="temp4">Temp: 61.43&#176; F</div>
+                <div id="wind4">Wind: 4.12 MPH</div>
+                <div id="humidity4">Humidity: 20 %</div>
+            </div>
+            <div class="weather-forecast-item">
+                <div class="date" id="dateSel5">02/07/2022</div>
+                <img src="http://openweathermap.org.img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                <div id="temp5">Temp: 69.04&#176; F</div>
+                <div id="wind5">Wind: 4.27 MPH</div>
+                <div id="humidity5">Humidity: 24 %</div>
+            </div>
+        </div>
+        </section>   
+        
+      
+    <script src="assets/js/script.js"></script>
+</body>
+   
+</html>
+
+
